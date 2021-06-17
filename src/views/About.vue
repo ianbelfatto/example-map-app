@@ -31,7 +31,7 @@ export default {
       container: "map", // container id
       style: "mapbox://styles/mapbox/streets-v11", // style URL
       center: [-73.9973608, 41.9270367], // starting position [lng, lat]
-      zoom: 4, // starting zoom
+      zoom: 1, // starting zoom
     });
 
     // Map Marker Loop Using 'places' Array
