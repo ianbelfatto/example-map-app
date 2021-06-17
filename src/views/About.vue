@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <div id="map">This is the map page!</div>
+    <h1>Mapbox Map</h1>
+    <div id="map">Map Page Here</div>
   </div>
 </template>
 
@@ -24,6 +24,7 @@ export default {
       center: [-73.9973608, 41.9270367], // starting position [lng, lat]
       zoom: 11, // starting zoom
     });
+    // Map Markers
     new mapboxgl.Marker({ color: "green" }).setLngLat([-73.9973608, 41.9270367]).addTo(map);
     new mapboxgl.Marker({ color: "blue" }).setLngLat([-117, 32.7]).addTo(map);
   },
